@@ -1,0 +1,122 @@
+body {
+  margin: 0 auto;
+  background-color: #E1ECF9;
+  color: #091D34; }
+
+header {
+  padding: 20px;
+  background: #609CE1; }
+
+main {
+  margin: 25px;
+  overflow-x: auto; }
+  main .filter-panel-separator {
+    height: 1px;
+    background-color: #b7c6d6;
+    margin-top: 25px; }
+  main .search {
+    padding: 13px 12px;
+    background: #fff;
+    border: 1px solid #ced4da; }
+    main .search input {
+      border: 0;
+      outline: none;
+      background: #fff;
+      width: -webkit-calc(100% - 25px);
+      width: calc(100% - 25px); }
+      main .search input::-webkit-input-placeholder {
+        font-size: 16px;
+        text-transform: capitalize; }
+      main .search input::-moz-placeholder {
+        font-size: 16px;
+        text-transform: capitalize; }
+      main .search input:-ms-input-placeholder {
+        font-size: 16px;
+        text-transform: capitalize; }
+      main .search input::-ms-input-placeholder {
+        font-size: 16px;
+        text-transform: capitalize; }
+      main .search input::placeholder {
+        font-size: 16px;
+        text-transform: capitalize; }
+  main .button-create {
+    width: 100%;
+    padding: 14px; }
+  main .custom-select {
+    border-radius: 0;
+    height: 55px; }
+  main .popup .modal-body .mandatory-field {
+    color: red; }
+  main .popup .modal-footer button {
+    width: 50%; }
+  main .todo-list {
+    overflow-y: auto;
+    height: -webkit-calc(100vh - 275px);
+    height: calc(100vh - 275px);
+    padding: 10px 0; }
+    main .todo-list .task {
+      width: 24%;
+      background: #fff;
+      margin: 20px 6px;
+      padding: 10px 15px;
+      color: #1d0d31;
+      display: inline-block;
+      vertical-align: top;
+      position: relative; }
+      main .todo-list .task .check-done {
+        color: green;
+        display: none;
+        position: absolute;
+        top: -10px;
+        right: -5px; }
+      main .todo-list .task.task-finished {
+        background: #f8f9fa;
+        opacity: 0.7; }
+        main .todo-list .task.task-finished .check-done {
+          display: block; }
+      main .todo-list .task button {
+        background: #fff;
+        color: #26490d;
+        border: 0;
+        padding: 5px 10px;
+        outline: none; }
+        main .todo-list .task button .custom-select {
+          border: 0;
+          height: 35px; }
+      main .todo-list .task .title {
+        font-size: 20px;
+        font-weight: 500; }
+      main .todo-list .task .description {
+        padding: 10px 0;
+        color: #13386378; }
+      main .todo-list .task .priority {
+        float: left;
+        padding: 5px 10px;
+        text-transform: capitalize;
+        font-size: 14px;
+        background-color: #18467b;
+        color: #fff;
+        border-radius: 5px; }
+        main .todo-list .task .priority.priority-normal {
+          background-color: #236AB9; }
+        main .todo-list .task .priority.priority-low {
+          background-color: #609CE1; }
+      main .todo-list .task .status {
+        float: right;
+        border: 1px solid #e6e6e6;
+        border-radius: 50%; }
+        main .todo-list .task .status .edit {
+          padding: 5px 10px;
+          border-radius: 50%;
+          color: #737892; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #96adc582;
+  font-size: 20px;
+  color: #969696; }
+  footer h2 {
+    font-size: 19px;
+    margin: 10px; }

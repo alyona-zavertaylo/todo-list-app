@@ -43,7 +43,6 @@ var searchElem = document.querySelector('main .search input');
 var statusElem = document.querySelector('main .status');
 var priorityElem = document.querySelector('main .priority');
 function filterTasks(taskArr) {
-  debugger;
   var searchValue = searchElem.value.toLowerCase();
   var statusValue = statusElem.value;
   var priorityValue = priorityElem.value;

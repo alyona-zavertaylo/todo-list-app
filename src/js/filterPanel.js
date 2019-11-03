@@ -5,7 +5,6 @@ const statusElem = document.querySelector('main .status');
 const priorityElem = document.querySelector('main .priority');
 
 export function filterTasks(taskArr) {
-    debugger;
     const searchValue = searchElem.value.toLowerCase();
     const statusValue = statusElem.value;
     const priorityValue = priorityElem.value;

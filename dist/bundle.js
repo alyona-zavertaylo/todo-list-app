@@ -32,7 +32,7 @@ function updateTask(task) {
 }
 
 function getTaskList() {
-  return JSON.parse(localStorage.getItem('todoTaskList'));
+  return JSON.parse(localStorage.getItem('todoTaskList')) || [];
 }
 function saveTaskList(arr) {
   var json = JSON.stringify(arr);

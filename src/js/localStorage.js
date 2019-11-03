@@ -1,5 +1,5 @@
 export function getTaskList() {
-    return JSON.parse(localStorage.getItem('todoTaskList'));
+    return JSON.parse(localStorage.getItem('todoTaskList')) || [];
 }
 
 export function saveTaskList(arr) {
